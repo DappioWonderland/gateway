@@ -10,7 +10,7 @@
   "dependencies": {
     "@dappio-wonderland/gateway-idls": "^0.2.8",
     "@dappio-wonderland/navigator": "^0.2.26",
-    "@jup-ag/core": "3.0.0-beta.1",
+    "@jup-ag/core": "3.0.0-beta.8-e44d7b4",
     "@project-serum/anchor": "^0.24.2",
     "@project-serum/borsh": "^0.2.5",
     "@project-serum/serum": "^0.13.61",
@@ -46,6 +46,7 @@
     "testAdapterNftFinance": "ANCHOR_WALLET=~/.config/solana/gateway.json ts-mocha -p ./tsconfig.json -t 1000000 tests/testAdapterNftFinance.ts",
     "testAdapterFrancium": "ANCHOR_WALLET=~/.config/solana/gateway.json ts-mocha -p ./tsconfig.json -t 1000000 tests/testAdapterFrancium.ts",
     "testAdapterKatana": "ANCHOR_WALLET=~/.config/solana/gateway.json ts-mocha -p ./tsconfig.json -t 1000000 tests/testAdapterKatana.ts",
-    "testAdapterFriktion": "ANCHOR_WALLET=~/.config/solana/gateway.json ts-mocha -p ./tsconfig.json -t 1000000 tests/testAdapterFriktion.ts"
+    "testAdapterFriktion": "ANCHOR_WALLET=~/.config/solana/gateway.json ts-mocha -p ./tsconfig.json -t 1000000 tests/testAdapterFriktion.ts",
+    "testAdapterJupiter": "ANCHOR_WALLET=~/.config/solana/gateway.json ts-mocha -p ./tsconfig.json -t 1000000 tests/testAdapterJupiter.ts"
   }
 }
